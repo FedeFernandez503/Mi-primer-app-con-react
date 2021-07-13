@@ -1,0 +1,667 @@
+*{
+    margin: 0px;
+    height: 900px;
+    width: 1440px;
+    
+}
+body{
+    background: #F9F9F9;
+}
+header{
+    margin: 0px;
+    height: 87px;
+}
+#Contenedor{
+   
+    height: 87px;
+    background: #009688;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-flow: row;
+}
+
+#SpaceBetween{
+    height: 87px;
+    background: #009688;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#Logoplay{
+    width: 37px;
+    height: 33px;
+    margin-left: 75px;
+    margin-top: 27px;
+    
+}
+
+/* font-family: en todos los textos; */
+#Tituloplay{
+    
+    Width: 183px;
+    Height: 64px;
+    margin-top: 21px;
+    margin-left: 11px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px; 
+    line-height: 40px;
+    color: white;
+}
+
+#Usuario{
+    height: 20px;
+    width: 100px;
+    margin-right: 54px;
+    margin-top: 33.5px;
+    font-size: 20px;
+}
+
+#Logo{
+    width: 37px;
+    height: 33px;
+    margin-left: 605px;
+    margin-top: 27px;
+    
+}
+
+/* font-family: en todos los textos; */
+#Titulo{
+    
+    Width: 183px;
+    Height: 64px;
+    margin-top: 21px;
+    margin-left: 11px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px; 
+    line-height: 40px;
+    color: white;
+}
+
+main{
+    margin-top: 29px;
+    Width: 959px;
+    Height: 747px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    margin-left: 240px;
+    
+}
+
+#candado{
+    margin-left: 411px;
+}
+
+img{
+    width: 104px;
+    height: 89px;
+    margin-top: 22px;
+}
+    
+h1{
+    Width: 120px;
+    Height: 29px;
+    margin-left: 402px;
+    margin-top: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+#formulario{
+    height: 270px;
+    width: 959px;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    margin-top: 51px;
+    height: 320px;
+    width: 959px;
+}
+
+strong{
+    color: red;
+    background-color: lightpink;
+    width: 578px;
+    margin-top: -42px;
+    margin-left: 171px;
+    height: 15px;
+    margin-bottom: 27px;
+}
+
+input{
+    padding-left: 16px;
+    margin-left: 171px;
+    margin-bottom: 44px;
+    Width: 578px;
+    Height: 62px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #C4C4C4;
+}
+
+
+
+button{
+    position: relative;
+    Width: 578px;
+    Height: 58px;
+    margin-left: 171px;
+    background: #F50057;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: rgba(47, 85, 253, 0.5);
+    opacity: 0;
+    border-radius: 50%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 1;
+    }
+    20% {
+      transform: scale(15, 15);
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(40, 40);
+    }
+  }
+  button:focus:not(:active)::after {
+    animation: ripple 1s ease-out;
+  }
+button:hover{
+    border:1px solid rgba(25, 118, 210, 1);
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+h3{
+    height: 16px;
+    width: 578px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+}
+
+h5{
+    height: 12px;
+    width: 546px;
+    color: #009688;
+    text-align: center;
+    letter-spacing: 1.25px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    margin-top: 41px;
+    margin-left: 189px;
+}
+
+hr{
+    Width: 578px;
+    Height: 1px;
+    background: #E5E5E5;
+    margin-left: 171px;
+    margin-top: 38px;
+    border: none;
+}
+
+h4{
+    height: 16px;
+    width: 546px;
+    margin-bottom: 29px;
+    margin-top: 43px;
+    margin-left: 187px;
+    color: #C4C4C4;
+    letter-spacing: 1.25px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+}
+h5:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#registro{
+    height: 44px;
+    width: 342px;
+    background: #FFFFFF;
+    border: 1px solid #009688;
+    border-radius: 4px;
+    margin-left: 292px;
+    color: #009688;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+}
+
+/* Aca empieza la pagina de no login */
+
+#NoLogin{
+    width: 832px;
+    height: 391px;
+    margin-top: 196px;
+    margin-left: 304px;
+    display: flex;
+    flex-flow: row;
+}
+
+#Candado{
+    width: 252px;
+    height: 215.65px;
+    margin-left: 29px;
+    margin-top: 73px;
+}
+
+#CuadroDeTexto{
+margin-left: -32px;
+display: flex;
+flex-flow: column;
+height: 617px;
+}
+
+#Error{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    margin-right: 30px;
+    margin-top: 174px;
+    text-align: left;
+    letter-spacing: 0.15px;
+    width: 553px;
+    height: 34px;
+    margin-left: 0px;
+}
+
+p{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    margin-top: 10px;
+    width: 553px;
+    height: 34px;
+}
+
+/*Aca empieza la pagina de playlist*/
+
+#ContenedorPlayList{
+    
+    height: 788px;
+    background: #F9F9F9;
+}
+
+#Busqueda{
+    margin-top: 25px;
+    margin-left: 403px;
+    margin-bottom: 19px;
+    width: 633px;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    background: white;
+}
+
+#BotonBuscador{
+    width: 56px;
+    height: 50px;
+    background: white;
+    border: none;
+    box-shadow: none;
+    margin-left: 0px;
+}
+
+#IconoBuscador{
+width: 18px;
+height: 18px;
+margin: 16px 19px 16px 19px;
+}
+
+#Buscador{
+    border: none;
+    margin: 13px 0px;
+    width: 521px;
+    height: 24px;
+    padding: 0px;
+}
+
+
+
+#Resultados{
+    width: 1302px;
+    height: 193px;
+    margin-left: 74px;
+    padding-top: 25px;
+    margin-top: 0px;
+}
+
+#TuPlayList{
+    height: 467px;
+    width: 1302px;
+    margin-left: 74px;
+    margin-top: 18px;
+    padding-top: 28px;
+}
+
+span{
+font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.15px;
+color: #009688;
+width: 394px;
+height: 48px;
+margin-left: 91px;
+}
+
+#Menu{
+    width: 1215px;   
+    margin-left: 87px;
+    display: flex;
+    flex-flow: row;
+    height: 20px;
+    
+}
+#cancionesBuscadas{
+    height: 116px;
+    width: 1300px;
+}
+.categorias{
+    height: 20px;
+    width: 243px;
+}
+
+#Menu2{
+    width: 1215px;  
+    margin-left: 87px;
+    display: flex;
+    flex-flow: row;
+    height: 20px;
+    
+}
+
+#ListaDeCanciones{
+    height: 390px;
+    width: 1215px;
+    margin-left: 85px;
+}
+
+h2{
+    padding-top: 21px;
+    padding-left: 11px;
+}
+h6{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+}
+
+ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 1215px;
+    height: 380px;
+    
+    
+}
+li{
+ text-align: center;
+ font-size: 1rem;
+ font-weight: 400;
+ line-height: 1.75;
+ letter-spacing: 0.00938em;
+ height: 40px;
+ display: flex;
+ justify-content: space-between;
+ width: 1220px;
+ margin: 5px 0px 28px 0px;
+ 
+}
+
+.ul{
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    
+}
+
+#ContenedorInfo{
+    width: 243px;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    
+    
+}
+
+#contenedorDeBotones{
+    width: 60px;
+    height: 25px;
+}
+
+.DatosDeLaCancion{
+    width: 190px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.Votar{
+    height: 25px;
+    width: 25px;
+    border: none;
+    background: white;
+    box-shadow: none;
+    margin: 0px;
+}
+
+#medidas{
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+    border-radius: 50%;
+    
+}
+
+#chica{
+    height: 21px;
+    width: 21px;
+    margin-top: 0px;
+    margin-left: -4px;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration-line: underline;
+
+}
+
+
+/*Aca empieza Login Mobile*/
+
+    @media only screen and (max-width: 667px) {
+        *{
+            margin: 0px;
+            height: 667px;
+            width: 375px;   
+            background: white;   
+        }
+        header {
+          width: 375px;
+        }
+
+        #Contenedor{
+            width: 375px;
+        }
+
+        #Logo{
+            margin-left: 25px;
+            margin-top: 27px;
+        }
+        
+        h2#Titulo{
+            width: 116px;
+            height: 39px;
+            padding-left: 11px;
+            padding-top: 21px;
+            margin: 0px;
+        }
+
+        main{
+            height: 580px;
+            width: 375px;
+        }
+
+        img#candado{
+            margin-top: 51px;
+            margin-left: 141px;
+            width: 95px;
+            height: 82px;
+        }
+
+        h1{
+            Width: 67px;
+            Height: 26px;
+            margin-left: 154px;
+            margin-top: 0px;
+        }
+
+        div#formulario{
+            height: 181px;
+            width: 375px;
+        }
+
+        form{
+            height: 181px;
+            width: 375px;
+            margin: 0px;
+        }
+
+        input#name{
+            margin-left: 24px;
+            margin-top: 22px;
+            margin-bottom: 24px;
+            height: 35px;
+            width: 327px;
+        }
+
+        input#password{
+            margin-left: 24px;
+            margin-top: 0px;
+            margin-bottom: 32px;
+            height: 35px;
+            width: 327px;
+        }
+
+        button#Login{
+            margin-left: 24px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 33px;
+            width: 327px;
+        }
+
+        h5{
+            text-align: center;
+            margin-top: 24px;
+            margin-left: 24px;
+            width: 309px;
+            height: 12px;
+        }
+
+        hr{
+        Width: 327px;
+        Height: 1px;
+        background: #E5E5E5;
+        margin-left: 24px;
+        margin-top: 43px;
+        border: none;
+        }
+
+        h4{
+        text-align: center;
+        height: 16px;
+        width: 319px;
+        margin-bottom: 16px;
+        margin-top: 36px;
+        margin-left: 33px;
+        }
+
+        button#registro{
+            height: 25px;
+            width: 194px;
+            margin-left: 91px;
+
+        }
+
+
+
+    }
